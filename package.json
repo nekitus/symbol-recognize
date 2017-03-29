@@ -1,0 +1,44 @@
+{
+  "name": "express-node-mongo-skeleton",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "body-parser": "^1.10.2",
+    "brfs": "^1.4.1",
+    "bson": "^1.0.4",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.1.1",
+    "express": "~4.11.1",
+    "jade": "~1.9.1",
+    "json-loader": "^0.5.4",
+    "method-override": "^2.3.1",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.4.12",
+    "morgan": "~1.5.1",
+    "pixi.js": "^3.0.8",
+    "serve-favicon": "~2.2.0",
+    "transform-loader": "^0.2.3"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2015-loose": "7.0.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "bson": "^1.0.4",
+    "engine": "^0.1.12",
+    "json": "^9.0.6",
+    "json-loader": "^0.5.4",
+    "loaders": "^1.1.2",
+    "transform": "^1.1.2",
+    "webpack": "^1.12.9"
+  }
+}

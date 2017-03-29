@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+	h1.
+		#{title}
+	form#formAddBlob(name="addblob",method="post",action="/blobs")
+		p Name: 
+			input#inputName(type="text", placeholder="", name="name")
+		p Badge:
+			input#inputBadge(type="text", placeholder="Данные (только цифры)", name="data")
+		p
+			button#btnSubmit(type="submit") submit
+	div
